@@ -11,8 +11,8 @@ class MyThemes {
       centerTitle: true,
       foregroundColor: Colors.white,
       backgroundColor: Colors.grey.shade900,
-      systemOverlayStyle: SystemUiOverlayStyle(
-        statusBarColor: Colors.grey.shade900,
+      systemOverlayStyle: const SystemUiOverlayStyle(
+        statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.light,
       ),
     ),
@@ -26,8 +26,8 @@ class MyThemes {
       centerTitle: true,
       foregroundColor: Colors.black,
       backgroundColor: Colors.grey.shade100,
-      systemOverlayStyle: SystemUiOverlayStyle(
-        statusBarColor: Colors.grey.shade100,
+      systemOverlayStyle: const SystemUiOverlayStyle(
+        statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
       ),
     ),
